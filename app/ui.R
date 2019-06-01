@@ -5,6 +5,7 @@
 
 # Use ShinyDashboard
 library(shinydashboard)
+library(DT)
 
 ui <- dashboardPage(
   
@@ -19,23 +20,23 @@ ui <- dashboardPage(
     )
   ),
   
-
   dashboardBody(
     
     # Define CSS style for the estimation button
     tags$head(tags$style(HTML('
-                              .estimation_button {background-color: #89400f; color:white; width: 100%}
-                              .estimation_button:hover {background-color: #542a0e; color:white}
-                              .estimation_button:focus {background-color: #542a0e; color:white}
+                              .optimize_button {background-color: #89400f; color:white; width: 100%}
+                              .optimize_button:hover {background-color: #542a0e; color:white}
+                              .optimize_button:focus {background-color: #542a0e; color:white}
                               '))),
     
     # Define content for each page
     tabItems(
       
-      # Estimation Page
+      # Optimizer Page
       tabItem(tabName = "optimizer",
               fluidRow(
-                # Add box for estimation parameters
+                
+                # Add box for app parameters
                 box(
                   width = 3,
                   title = "NFL 2018 Season",
@@ -61,8 +62,13 @@ ui <- dashboardPage(
                                            "15" = 15,
                                            "16" = 16,
                                            "17" = 17),
-                               selected = 1)
-                  ),                
+                               selected = 1),
+                  
+                  actionButton("Optimize","Optimize",
+                               icon("cog"),
+                               class="optimize_button"
+                  )
+                ),                
                                 
                 # Add box for graph 
                 box(
@@ -73,23 +79,18 @@ ui <- dashboardPage(
                   tableOutput("view")
                   ),
                 
-                # Add box for fan pts
-                valueBoxOutput("fan_pts_box", width = 3),
-                
                 # Add box for salary
                 valueBoxOutput("salary_box", width = 3),
                 
-                actionButton("Optimize","Optimize",
-                               icon("cog"),
-                               class="estimation_button"
-                               )
+                # Add box for fan pts
+                valueBoxOutput("fan_pts_box", width = 3)
                 )
       ),
 
       # Data Page
       tabItem(tabName = "data",
               h2("Data"),
-              dataTableOutput("data_table")
+              DT::dataTableOutput("data_table")
       ),
       
       # About Page

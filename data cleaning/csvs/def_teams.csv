@@ -1,0 +1,513 @@
+"Year","Week","GID","Team_fmt","Opp_fmt","h.a","Name","Pos","DK.points","DK.salary"
+2018,1,7021,"NYJ","DET","a","New York J","Def",26,2400
+2018,1,7017,"MIN","SF","h","Minnesota","Def",18,3500
+2018,1,7025,"LA","OAK","a","LA Rams","Def",17,3600
+2018,1,7003,"BAL","BUF","h","Baltimore","Def",17,3800
+2018,1,7008,"CLE","PIT","h","Cleveland","Def",16,2000
+2018,1,7006,"CHI","GB","a","Chicago","Def",14,2300
+2018,1,7014,"JAX","NYG","a","Jacksonville","Def",13,3700
+2018,1,7016,"MIA","TEN","h","Miami","Def",13,2400
+2018,1,7031,"WAS","ARI","a","Washington","Def",13,2800
+2018,1,7010,"DEN","SEA","h","Denver","Def",12,3300
+2018,1,7007,"CIN","IND","a","Cincinnati","Def",12,2700
+2018,1,7005,"CAR","DAL","h","Carolina","Def",12,3200
+2018,1,7024,"PIT","CLE","a","Pittsburgh","Def",11,3400
+2018,1,7030,"TEN","MIA","a","Tennessee","Def",11,2900
+2018,1,7023,"PHI","ATL","h","Philadelphia","Def",10,3000
+2018,1,7015,"KC","LAC","a","Kansas City","Def",10,2300
+2018,1,7011,"DET","NYJ","h","Detroit","Def",8,3400
+2018,1,7032,"HOU","NE","a","Houston","Def",8,2200
+2018,1,7018,"NE","HOU","h","New England","Def",8,2400
+2018,1,7029,"TB","NO","a","Tampa Bay","Def",7,2000
+2018,1,7002,"ATL","PHI","a","Atlanta","Def",7,2500
+2018,1,7028,"SEA","DEN","a","Seattle","Def",7,3100
+2018,1,7012,"GB","CHI","h","Green Bay","Def",7,3200
+2018,1,7009,"DAL","CAR","a","Dallas","Def",6,2300
+2018,1,7027,"SF","MIN","a","San Francisco","Def",6,2100
+2018,1,7001,"ARI","WAS","h","Arizona","Def",5,2500
+2018,1,7013,"IND","CIN","h","Indianapolis","Def",5,2400
+2018,1,7020,"NYG","JAX","h","New York G","Def",4,2600
+2018,1,7022,"OAK","LA","h","Oakland","Def",1,2200
+2018,1,7004,"BUF","BAL","a","Buffalo","Def",0,3000
+2018,1,7026,"LAC","KC","h","LA Chargers","Def",-3,2800
+2018,1,7019,"NO","TB","h","New Orleans","Def",-4,3600
+2018,2,7006,"CHI","SEA","h","Chicago","Def",17,2800
+2018,2,7016,"MIA","NYJ","a","Miami","Def",13,3100
+2018,2,7025,"LA","ARI","h","LA Rams","Def",13,3700
+2018,2,7009,"DAL","NYG","h","Dallas","Def",12,2500
+2018,2,7012,"GB","MIN","h","Green Bay","Def",11,2500
+2018,2,7007,"CIN","BAL","h","Cincinnati","Def",10,2700
+2018,2,7026,"LAC","BUF","a","LA Chargers","Def",10,3600
+2018,2,7021,"NYJ","MIA","h","New York J","Def",9,2500
+2018,2,7013,"IND","WAS","a","Indianapolis","Def",9,2300
+2018,2,7029,"TB","PHI","h","Tampa Bay","Def",7,2200
+2018,2,7008,"CLE","NO","a","Cleveland","Def",7,2000
+2018,2,7028,"SEA","CHI","a","Seattle","Def",7,2600
+2018,2,7030,"TEN","HOU","h","Tennessee","Def",7,2400
+2018,2,7019,"NO","CLE","h","New Orleans","Def",6,3200
+2018,2,7023,"PHI","TB","a","Philadelphia","Def",6,3400
+2018,2,7014,"JAX","NE","h","Jacksonville","Def",5,2800
+2018,2,7011,"DET","SF","a","Detroit","Def",5,2300
+2018,2,7031,"WAS","IND","h","Washington","Def",5,2700
+2018,2,7010,"DEN","OAK","h","Denver","Def",4,3300
+2018,2,7022,"OAK","DEN","a","Oakland","Def",4,2300
+2018,2,7027,"SF","DET","h","San Francisco","Def",4,2800
+2018,2,7002,"ATL","CAR","h","Atlanta","Def",4,2700
+2018,2,7001,"ARI","LA","a","Arizona","Def",3,2100
+2018,2,7017,"MIN","GB","a","Minnesota","Def",3,2600
+2018,2,7018,"NE","JAX","a","New England","Def",3,3000
+2018,2,7032,"HOU","TEN","a","Houston","Def",2,2600
+2018,2,7004,"BUF","LAC","h","Buffalo","Def",1,2100
+2018,2,7005,"CAR","ATL","a","Carolina","Def",1,2900
+2018,2,7024,"PIT","KC","h","Pittsburgh","Def",1,2700
+2018,2,7020,"NYG","DAL","a","New York G","Def",1,2700
+2018,2,7003,"BAL","CIN","a","Baltimore","Def",-1,2800
+2018,2,7015,"KC","PIT","a","Kansas City","Def",-3,2200
+2018,3,7004,"BUF","MIN","a","Buffalo","Def",17,2000
+2018,3,7024,"PIT","TB","a","Pittsburgh","Def",17,2600
+2018,3,7028,"SEA","DAL","h","Seattle","Def",15,2900
+2018,3,7025,"LA","LAC","h","LA Rams","Def",14,3100
+2018,3,7006,"CHI","ARI","a","Chicago","Def",13,3500
+2018,3,7030,"TEN","JAX","a","Tennessee","Def",12,2300
+2018,3,7005,"CAR","CIN","h","Carolina","Def",10,2700
+2018,3,7013,"IND","PHI","a","Indianapolis","Def",10,2100
+2018,3,7008,"CLE","NYJ","h","Cleveland","Def",9,3000
+2018,3,7011,"DET","NE","h","Detroit","Def",8,2000
+2018,3,7016,"MIA","OAK","h","Miami","Def",8,2700
+2018,3,7001,"ARI","CHI","h","Arizona","Def",8,2400
+2018,3,7014,"JAX","TEN","h","Jacksonville","Def",7,4000
+2018,3,7031,"WAS","GB","h","Washington","Def",7,2000
+2018,3,7020,"NYG","HOU","a","New York G","Def",7,2300
+2018,3,7010,"DEN","BAL","a","Denver","Def",6,2400
+2018,3,7003,"BAL","DEN","h","Baltimore","Def",6,2800
+2018,3,7029,"TB","PIT","h","Tampa Bay","Def",5,2300
+2018,3,7021,"NYJ","CLE","a","New York J","Def",4,2500
+2018,3,7032,"HOU","NYG","h","Houston","Def",4,2800
+2018,3,7015,"KC","SF","h","Kansas City","Def",4,2300
+2018,3,7023,"PHI","IND","h","Philadelphia","Def",3,3000
+2018,3,7017,"MIN","BUF","h","Minnesota","Def",3,4300
+2018,3,7018,"NE","DET","a","New England","Def",3,2900
+2018,3,7009,"DAL","SEA","a","Dallas","Def",2,2200
+2018,3,7019,"NO","ATL","a","New Orleans","Def",1,2500
+2018,3,7012,"GB","WAS","a","Green Bay","Def",1,2600
+2018,3,7026,"LAC","LA","a","LA Chargers","Def",1,2300
+2018,3,7022,"OAK","MIA","a","Oakland","Def",0,2400
+2018,3,7007,"CIN","CAR","a","Cincinnati","Def",0,2500
+2018,3,7027,"SF","KC","a","San Francisco","Def",-2,2100
+2018,3,7002,"ATL","NO","h","Atlanta","Def",-3,2200
+2018,4,7012,"GB","BUF","h","Green Bay","Def",23,3500
+2018,4,7006,"CHI","TB","h","Chicago","Def",14,2600
+2018,4,7032,"HOU","IND","a","Houston","Def",13,2700
+2018,4,7022,"OAK","CLE","h","Oakland","Def",12,2500
+2018,4,7018,"NE","MIA","h","New England","Def",10,2800
+2018,4,7014,"JAX","NYJ","h","Jacksonville","Def",9,4100
+2018,4,7019,"NO","NYG","a","New Orleans","Def",8,2500
+2018,4,7027,"SF","LAC","a","San Francisco","Def",8,2100
+2018,4,7013,"IND","HOU","h","Indianapolis","Def",8,2200
+2018,4,7021,"NYJ","JAX","a","New York J","Def",7,2400
+2018,4,7004,"BUF","GB","a","Buffalo","Def",6,2000
+2018,4,7015,"KC","DEN","a","Kansas City","Def",6,2300
+2018,4,7003,"BAL","PIT","a","Baltimore","Def",6,2400
+2018,4,7030,"TEN","PHI","h","Tennessee","Def",6,2300
+2018,4,7023,"PHI","TEN","a","Philadelphia","Def",5,3300
+2018,4,7025,"LA","MIN","h","LA Rams","Def",5,2900
+2018,4,7026,"LAC","SF","h","LA Chargers","Def",5,3900
+2018,4,7028,"SEA","ARI","a","Seattle","Def",4,3200
+2018,4,7024,"PIT","BAL","h","Pittsburgh","Def",4,2200
+2018,4,7011,"DET","DAL","a","Detroit","Def",3,2500
+2018,4,7009,"DAL","DET","h","Dallas","Def",3,2400
+2018,4,7008,"CLE","OAK","a","Cleveland","Def",3,2900
+2018,4,7002,"ATL","CIN","h","Atlanta","Def",3,2300
+2018,4,7001,"ARI","SEA","h","Arizona","Def",3,2600
+2018,4,7010,"DEN","KC","h","Denver","Def",1,2200
+2018,4,7016,"MIA","NE","a","Miami","Def",0,2000
+2018,4,7020,"NYG","NO","h","New York G","Def",0,2100
+2018,4,7007,"CIN","ATL","a","Cincinnati","Def",-1,2200
+2018,4,7029,"TB","CHI","a","Tampa Bay","Def",-3,2400
+2018,4,7017,"MIN","LA","a","Minnesota","Def",-3,2400
+2018,5,7007,"CIN","MIA","h","Cincinnati","Def",22,2700
+2018,5,7015,"KC","JAX","h","Kansas City","Def",22,2500
+2018,5,7001,"ARI","SF","a","Arizona","Def",21,2900
+2018,5,7024,"PIT","ATL","h","Pittsburgh","Def",17,2400
+2018,5,7016,"MIA","CIN","a","Miami","Def",13,2200
+2018,5,7017,"MIN","PHI","a","Minnesota","Def",13,2300
+2018,5,7004,"BUF","TEN","h","Buffalo","Def",12,2300
+2018,5,7005,"CAR","NYG","h","Carolina","Def",12,3300
+2018,5,7008,"CLE","BAL","h","Cleveland","Def",12,2500
+2018,5,7003,"BAL","CLE","a","Baltimore","Def",11,2800
+2018,5,7026,"LAC","OAK","h","LA Chargers","Def",11,3100
+2018,5,7011,"DET","GB","h","Detroit","Def",10,2200
+2018,5,7019,"NO","WAS","h","New Orleans","Def",8,2400
+2018,5,7021,"NYJ","DEN","h","New York J","Def",7,2600
+2018,5,7032,"HOU","DAL","h","Houston","Def",7,2900
+2018,5,7018,"NE","IND","h","New England","Def",7,2800
+2018,5,7030,"TEN","BUF","a","Tennessee","Def",7,4000
+2018,5,7009,"DAL","HOU","a","Dallas","Def",6,2300
+2018,5,7014,"JAX","KC","a","Jacksonville","Def",5,2800
+2018,5,7020,"NYG","CAR","a","New York G","Def",5,2100
+2018,5,7010,"DEN","NYJ","a","Denver","Def",4,3200
+2018,5,7023,"PHI","MIN","h","Philadelphia","Def",4,2600
+2018,5,7028,"SEA","LA","h","Seattle","Def",4,2100
+2018,5,7012,"GB","DET","a","Green Bay","Def",2,2700
+2018,5,7022,"OAK","LAC","a","Oakland","Def",1,2000
+2018,5,7027,"SF","ARI","h","San Francisco","Def",1,3000
+2018,5,7025,"LA","SEA","a","LA Rams","Def",1,3800
+2018,5,7031,"WAS","NO","a","Washington","Def",0,2000
+2018,5,7013,"IND","NE","a","Indianapolis","Def",0,2100
+2018,5,7002,"ATL","PIT","a","Atlanta","Def",-2,2000
+2018,6,7003,"BAL","TEN","a","Baltimore","Def",21,2800
+2018,6,7032,"HOU","BUF","h","Houston","Def",20,3500
+2018,6,7028,"SEA","OAK","a","Seattle","Def",17,2600
+2018,6,7004,"BUF","HOU","a","Buffalo","Def",14,2200
+2018,6,7001,"ARI","MIN","a","Arizona","Def",14,2000
+2018,6,7021,"NYJ","IND","h","New York J","Def",13,2900
+2018,6,7017,"MIN","ARI","h","Minnesota","Def",12,3800
+2018,6,7009,"DAL","JAX","h","Dallas","Def",11,2300
+2018,6,7023,"PHI","NYG","a","Philadelphia","Def",10,3000
+2018,6,7026,"LAC","CLE","a","LA Chargers","Def",10,2700
+2018,6,7031,"WAS","CAR","h","Washington","Def",8,2400
+2018,6,7010,"DEN","LA","h","Denver","Def",7,2000
+2018,6,7012,"GB","SF","h","Green Bay","Def",7,3200
+2018,6,7016,"MIA","CHI","h","Miami","Def",7,2600
+2018,6,7002,"ATL","TB","h","Atlanta","Def",5,2100
+2018,6,7006,"CHI","MIA","a","Chicago","Def",5,3300
+2018,6,7025,"LA","DEN","a","LA Rams","Def",5,3100
+2018,6,7022,"OAK","SEA","h","Oakland","Def",3,2100
+2018,6,7005,"CAR","WAS","a","Carolina","Def",3,2600
+2018,6,7024,"PIT","CIN","a","Pittsburgh","Def",3,2300
+2018,6,7027,"SF","GB","a","San Francisco","Def",2,2000
+2018,6,7030,"TEN","BAL","h","Tennessee","Def",2,2500
+2018,6,7013,"IND","NYJ","a","Indianapolis","Def",2,2500
+2018,6,7029,"TB","ATL","a","Tampa Bay","Def",0,2000
+2018,6,7015,"KC","NE","a","Kansas City","Def",0,2100
+2018,6,7018,"NE","KC","h","New England","Def",0,2200
+2018,6,7020,"NYG","PHI","h","New York G","Def",0,2200
+2018,6,7007,"CIN","PIT","h","Cincinnati","Def",-1,2400
+2018,6,7014,"JAX","DAL","a","Jacksonville","Def",-1,3600
+2018,6,7008,"CLE","LAC","h","Cleveland","Def",-1,2600
+2018,7,7010,"DEN","ARI","a","Denver","Def",32,2900
+2018,7,7025,"LA","SF","a","LA Rams","Def",23,3500
+2018,7,7018,"NE","CHI","a","New England","Def",19,2400
+2018,7,7013,"IND","BUF","h","Indianapolis","Def",19,3300
+2018,7,7031,"WAS","DAL","h","Washington","Def",15,2900
+2018,7,7032,"HOU","JAX","a","Houston","Def",14,2800
+2018,7,7008,"CLE","TB","a","Cleveland","Def",14,2400
+2018,7,7015,"KC","CIN","h","Kansas City","Def",14,2200
+2018,7,7017,"MIN","NYJ","a","Minnesota","Def",12,3400
+2018,7,7029,"TB","CLE","h","Tampa Bay","Def",7,2300
+2018,7,7005,"CAR","PHI","a","Carolina","Def",7,2200
+2018,7,7002,"ATL","NYG","h","Atlanta","Def",5,2500
+2018,7,7020,"NYG","ATL","a","New York G","Def",5,2100
+2018,7,7026,"LAC","TEN","h","LA Chargers","Def",5,2900
+2018,7,7011,"DET","MIA","a","Detroit","Def",4,2400
+2018,7,7006,"CHI","NE","h","Chicago","Def",3,2500
+2018,7,7001,"ARI","DEN","h","Arizona","Def",3,2700
+2018,7,7003,"BAL","NO","h","Baltimore","Def",3,2400
+2018,7,7030,"TEN","LAC","a","Tennessee","Def",3,2300
+2018,7,7023,"PHI","CAR","h","Philadelphia","Def",2,2600
+2018,7,7014,"JAX","HOU","h","Jacksonville","Def",2,3600
+2018,7,7009,"DAL","WAS","a","Dallas","Def",2,2700
+2018,7,7019,"NO","BAL","a","New Orleans","Def",1,2200
+2018,7,7007,"CIN","KC","a","Cincinnati","Def",0,2100
+2018,7,7016,"MIA","DET","h","Miami","Def",0,2500
+2018,7,7004,"BUF","IND","a","Buffalo","Def",-2,2300
+2018,7,7027,"SF","LA","h","San Francisco","Def",-2,2000
+2018,7,7021,"NYJ","MIN","h","New York J","Def",-3,2100
+2018,8,7018,"NE","BUF","a","New England","Def",20,3500
+2018,8,7007,"CIN","TB","h","Cincinnati","Def",19,2500
+2018,8,7019,"NO","MIN","a","New Orleans","Def",15,2100
+2018,8,7031,"WAS","NYG","a","Washington","Def",15,2700
+2018,8,7027,"SF","ARI","a","San Francisco","Def",10,2500
+2018,8,7028,"SEA","DET","a","Seattle","Def",10,2300
+2018,8,7015,"KC","DEN","h","Kansas City","Def",9,2600
+2018,8,7014,"JAX","PHI","h","Jacksonville","Def",8,2700
+2018,8,7005,"CAR","BAL","h","Carolina","Def",8,2500
+2018,8,7001,"ARI","SF","h","Arizona","Def",8,3200
+2018,8,7023,"PHI","JAX","a","Philadelphia","Def",7,2900
+2018,8,7025,"LA","GB","h","LA Rams","Def",7,2600
+2018,8,7024,"PIT","CLE","h","Pittsburgh","Def",7,2300
+2018,8,7006,"CHI","NYJ","h","Chicago","Def",5,4100
+2018,8,7012,"GB","LA","a","Green Bay","Def",5,2000
+2018,8,7032,"HOU","MIA","h","Houston","Def",4,3100
+2018,8,7008,"CLE","PIT","a","Cleveland","Def",4,2100
+2018,8,7010,"DEN","KC","a","Denver","Def",3,2000
+2018,8,7004,"BUF","NE","h","Buffalo","Def",3,2000
+2018,8,7020,"NYG","WAS","h","New York G","Def",3,2000
+2018,8,7021,"NYJ","CHI","a","New York J","Def",2,2200
+2018,8,7017,"MIN","NO","h","Minnesota","Def",2,2400
+2018,8,7029,"TB","CIN","a","Tampa Bay","Def",1,2100
+2018,8,7011,"DET","SEA","h","Detroit","Def",1,2400
+2018,8,7013,"IND","OAK","a","Indianapolis","Def",1,2900
+2018,8,7022,"OAK","IND","h","Oakland","Def",-4,2200
+2018,8,7016,"MIA","HOU","a","Miami","Def",-4,2300
+2018,8,7003,"BAL","CAR","a","Baltimore","Def",-4,2800
+2018,9,7006,"CHI","BUF","a","Chicago","Def",28,4100
+2018,9,7016,"MIA","NYJ","h","Miami","Def",25,2800
+2018,9,7017,"MIN","DET","h","Minnesota","Def",22,2900
+2018,9,7027,"SF","OAK","h","San Francisco","Def",15,2300
+2018,9,7026,"LAC","SEA","a","LA Chargers","Def",13,2300
+2018,9,7030,"TEN","DAL","a","Tennessee","Def",10,2700
+2018,9,7021,"NYJ","MIA","a","New York J","Def",8,2500
+2018,9,7009,"DAL","TEN","h","Dallas","Def",7,2900
+2018,9,7011,"DET","MIN","a","Detroit","Def",6,2100
+2018,9,7005,"CAR","TB","h","Carolina","Def",6,3200
+2018,9,7015,"KC","CLE","a","Kansas City","Def",6,2700
+2018,9,7002,"ATL","WAS","a","Atlanta","Def",6,2200
+2018,9,7010,"DEN","HOU","h","Denver","Def",5,2300
+2018,9,7032,"HOU","DEN","a","Houston","Def",5,3000
+2018,9,7018,"NE","GB","h","New England","Def",4,2200
+2018,9,7028,"SEA","LAC","h","Seattle","Def",3,2500
+2018,9,7024,"PIT","BAL","a","Pittsburgh","Def",3,2300
+2018,9,7004,"BUF","CHI","h","Buffalo","Def",2,2300
+2018,9,7012,"GB","NE","a","Green Bay","Def",1,2000
+2018,9,7003,"BAL","PIT","h","Baltimore","Def",1,2500
+2018,9,7008,"CLE","KC","h","Cleveland","Def",0,2000
+2018,9,7031,"WAS","ATL","h","Washington","Def",0,2600
+2018,9,7022,"OAK","SF","a","Oakland","Def",-1,2400
+2018,9,7029,"TB","CAR","a","Tampa Bay","Def",-2,2000
+2018,9,7019,"NO","LA","h","New Orleans","Def",-2,2200
+2018,9,7025,"LA","NO","a","LA Rams","Def",-2,2400
+2018,10,7031,"WAS","TB","a","Washington","Def",17,3000
+2018,10,7024,"PIT","CAR","h","Pittsburgh","Def",15,2400
+2018,10,7012,"GB","MIA","h","Green Bay","Def",14,3100
+2018,10,7026,"LAC","OAK","a","LA Chargers","Def",13,3500
+2018,10,7006,"CHI","DET","h","Chicago","Def",12,3600
+2018,10,7004,"BUF","NYJ","a","Buffalo","Def",11,3200
+2018,10,7015,"KC","ARI","h","Kansas City","Def",10,3300
+2018,10,7019,"NO","CIN","a","New Orleans","Def",9,2200
+2018,10,7008,"CLE","ATL","h","Cleveland","Def",7,2300
+2018,10,7030,"TEN","NE","h","Tennessee","Def",7,2100
+2018,10,7009,"DAL","PHI","a","Dallas","Def",5,2200
+2018,10,7016,"MIA","GB","a","Miami","Def",5,2100
+2018,10,7001,"ARI","KC","a","Arizona","Def",5,2000
+2018,10,7025,"LA","SEA","h","LA Rams","Def",5,2400
+2018,10,7022,"OAK","LAC","h","Oakland","Def",4,2000
+2018,10,7029,"TB","WAS","h","Tampa Bay","Def",4,2000
+2018,10,7023,"PHI","DAL","h","Philadelphia","Def",4,2900
+2018,10,7020,"NYG","SF","a","New York G","Def",4,2500
+2018,10,7013,"IND","JAX","h","Indianapolis","Def",4,2800
+2018,10,7014,"JAX","IND","a","Jacksonville","Def",1,2900
+2018,10,7027,"SF","NYG","h","San Francisco","Def",1,2800
+2018,10,7002,"ATL","CLE","a","Atlanta","Def",1,2500
+2018,10,7018,"NE","TEN","a","New England","Def",1,2700
+2018,10,7011,"DET","CHI","a","Detroit","Def",0,2600
+2018,10,7028,"SEA","LA","a","Seattle","Def",-2,2000
+2018,10,7021,"NYJ","BUF","h","New York J","Def",-3,3400
+2018,10,7005,"CAR","PIT","a","Carolina","Def",-3,2300
+2018,10,7007,"CIN","NO","h","Cincinnati","Def",-4,2100
+2018,11,7025,"LA","KC","h","LA Rams","Def",21,2100
+2018,11,7032,"HOU","WAS","a","Houston","Def",15,2600
+2018,11,7006,"CHI","MIN","h","Chicago","Def",15,2600
+2018,11,7019,"NO","PHI","h","New Orleans","Def",13,2100
+2018,11,7013,"IND","TEN","h","Indianapolis","Def",13,2500
+2018,11,7015,"KC","LA","a","Kansas City","Def",11,2100
+2018,11,7020,"NYG","TB","h","New York G","Def",11,2400
+2018,11,7031,"WAS","HOU","h","Washington","Def",10,2700
+2018,11,7014,"JAX","PIT","h","Jacksonville","Def",9,2200
+2018,11,7024,"PIT","JAX","a","Pittsburgh","Def",9,2900
+2018,11,7017,"MIN","CHI","a","Minnesota","Def",8,2500
+2018,11,7010,"DEN","LAC","a","Denver","Def",7,2000
+2018,11,7011,"DET","CAR","h","Detroit","Def",6,2000
+2018,11,7009,"DAL","ATL","a","Dallas","Def",6,2200
+2018,11,7022,"OAK","ARI","a","Oakland","Def",5,2300
+2018,11,7028,"SEA","GB","h","Seattle","Def",5,2300
+2018,11,7012,"GB","SEA","a","Green Bay","Def",5,2300
+2018,11,7007,"CIN","BAL","a","Cincinnati","Def",4,2400
+2018,11,7001,"ARI","OAK","h","Arizona","Def",4,3100
+2018,11,7029,"TB","NYG","a","Tampa Bay","Def",3,2200
+2018,11,7005,"CAR","DET","a","Carolina","Def",2,2800
+2018,11,7002,"ATL","DAL","h","Atlanta","Def",2,2400
+2018,11,7003,"BAL","CIN","h","Baltimore","Def",1,3200
+2018,11,7026,"LAC","DEN","h","LA Chargers","Def",0,3400
+2018,11,7023,"PHI","NO","a","Philadelphia","Def",-4,2100
+2018,11,7030,"TEN","IND","a","Tennessee","Def",-4,2500
+2018,12,7003,"BAL","OAK","h","Baltimore","Def",18,3300
+2018,12,7019,"NO","ATL","h","New Orleans","Def",15,2300
+2018,12,7010,"DEN","PIT","h","Denver","Def",13,2300
+2018,12,7006,"CHI","DET","a","Chicago","Def",13,2900
+2018,12,7029,"TB","SF","h","Tampa Bay","Def",12,2400
+2018,12,7032,"HOU","TEN","h","Houston","Def",9,3000
+2018,12,7009,"DAL","WAS","h","Dallas","Def",9,3200
+2018,12,7008,"CLE","CIN","a","Cleveland","Def",8,2800
+2018,12,7018,"NE","NYJ","a","New England","Def",8,3100
+2018,12,7026,"LAC","ARI","h","LA Chargers","Def",8,3400
+2018,12,7004,"BUF","JAX","h","Buffalo","Def",7,2700
+2018,12,7011,"DET","CHI","h","Detroit","Def",7,2400
+2018,12,7016,"MIA","IND","a","Miami","Def",7,2100
+2018,12,7017,"MIN","GB","h","Minnesota","Def",7,2600
+2018,12,7022,"OAK","BAL","a","Oakland","Def",4,2000
+2018,12,7023,"PHI","NYG","h","Philadelphia","Def",4,2400
+2018,12,7002,"ATL","NO","a","Atlanta","Def",3,2000
+2018,12,7031,"WAS","DAL","a","Washington","Def",3,2600
+2018,12,7020,"NYG","PHI","a","New York G","Def",3,2200
+2018,12,7030,"TEN","HOU","a","Tennessee","Def",3,2300
+2018,12,7013,"IND","MIA","h","Indianapolis","Def",3,2900
+2018,12,7028,"SEA","CAR","a","Seattle","Def",2,2200
+2018,12,7012,"GB","MIN","a","Green Bay","Def",2,2200
+2018,12,7001,"ARI","LAC","a","Arizona","Def",2,2100
+2018,12,7024,"PIT","DEN","a","Pittsburgh","Def",2,3000
+2018,12,7005,"CAR","SEA","h","Carolina","Def",1,2600
+2018,12,7027,"SF","TB","a","San Francisco","Def",1,2300
+2018,12,7014,"JAX","BUF","a","Jacksonville","Def",0,4000
+2018,12,7021,"NYJ","NE","h","New York J","Def",0,2000
+2018,12,7007,"CIN","CLE","h","Cincinnati","Def",-4,2500
+2018,13,7032,"HOU","CLE","h","Houston","Def",18,2700
+2018,13,7014,"JAX","IND","h","Jacksonville","Def",17,2400
+2018,13,7020,"NYG","CHI","h","New York G","Def",17,2300
+2018,13,7028,"SEA","SF","h","Seattle","Def",16,3400
+2018,13,7019,"NO","DAL","a","New Orleans","Def",15,2600
+2018,13,7021,"NYJ","TEN","a","New York J","Def",15,2200
+2018,13,7003,"BAL","ATL","a","Baltimore","Def",15,2800
+2018,13,7010,"DEN","CIN","a","Denver","Def",14,2700
+2018,13,7029,"TB","CAR","h","Tampa Bay","Def",13,2000
+2018,13,7013,"IND","JAX","a","Indianapolis","Def",12,2600
+2018,13,7002,"ATL","BAL","h","Atlanta","Def",11,2400
+2018,13,7018,"NE","MIN","h","New England","Def",10,2400
+2018,13,7023,"PHI","WAS","h","Philadelphia","Def",9,2600
+2018,13,7016,"MIA","BUF","h","Miami","Def",9,2700
+2018,13,7025,"LA","DET","a","LA Rams","Def",9,2600
+2018,13,7009,"DAL","NO","h","Dallas","Def",8,2000
+2018,13,7015,"KC","OAK","a","Kansas City","Def",8,2500
+2018,13,7026,"LAC","PIT","a","LA Chargers","Def",8,2300
+2018,13,7005,"CAR","TB","a","Carolina","Def",6,2500
+2018,13,7004,"BUF","MIA","a","Buffalo","Def",5,2900
+2018,13,7011,"DET","LA","h","Detroit","Def",5,2000
+2018,13,7006,"CHI","NYG","a","Chicago","Def",5,3300
+2018,13,7030,"TEN","NYJ","h","Tennessee","Def",5,3000
+2018,13,7007,"CIN","DEN","h","Cincinnati","Def",4,2200
+2018,13,7008,"CLE","HOU","a","Cleveland","Def",4,2300
+2018,13,7012,"GB","ARI","h","Green Bay","Def",3,2800
+2018,13,7001,"ARI","GB","a","Arizona","Def",2,2000
+2018,13,7017,"MIN","NE","a","Minnesota","Def",2,2100
+2018,13,7031,"WAS","PHI","a","Washington","Def",1,2300
+2018,13,7024,"PIT","LAC","h","Pittsburgh","Def",1,2500
+2018,13,7022,"OAK","KC","h","Oakland","Def",0,2000
+2018,13,7027,"SF","SEA","a","San Francisco","Def",-1,2000
+2018,14,7006,"CHI","LA","h","Chicago","Def",20,2200
+2018,14,7011,"DET","ARI","a","Detroit","Def",18,2900
+2018,14,7020,"NYG","WAS","a","New York G","Def",18,2500
+2018,14,7028,"SEA","MIN","h","Seattle","Def",16,2600
+2018,14,7012,"GB","ATL","h","Green Bay","Def",13,2100
+2018,14,7021,"NYJ","BUF","a","New York J","Def",11,2400
+2018,14,7025,"LA","CHI","a","LA Rams","Def",11,2500
+2018,14,7030,"TEN","JAX","h","Tennessee","Def",10,2900
+2018,14,7019,"NO","TB","a","New Orleans","Def",9,2700
+2018,14,7023,"PHI","DAL","a","Philadelphia","Def",8,2300
+2018,14,7001,"ARI","DET","h","Arizona","Def",7,2300
+2018,14,7010,"DEN","SF","a","Denver","Def",6,3600
+2018,14,7024,"PIT","OAK","a","Pittsburgh","Def",6,3000
+2018,14,7018,"NE","MIA","a","New England","Def",6,2800
+2018,14,7005,"CAR","CLE","a","Carolina","Def",5,2500
+2018,14,7015,"KC","BAL","h","Kansas City","Def",5,2300
+2018,14,7017,"MIN","SEA","a","Minnesota","Def",5,2400
+2018,14,7003,"BAL","KC","a","Baltimore","Def",5,2200
+2018,14,7013,"IND","HOU","a","Indianapolis","Def",5,2400
+2018,14,7004,"BUF","NYJ","h","Buffalo","Def",4,3200
+2018,14,7029,"TB","NO","h","Tampa Bay","Def",4,2000
+2018,14,7014,"JAX","TEN","a","Jacksonville","Def",4,2800
+2018,14,7032,"HOU","IND","h","Houston","Def",4,2600
+2018,14,7009,"DAL","PHI","h","Dallas","Def",4,2600
+2018,14,7008,"CLE","CAR","h","Cleveland","Def",4,2200
+2018,14,7022,"OAK","PIT","h","Oakland","Def",3,2000
+2018,14,7027,"SF","DEN","h","San Francisco","Def",3,2200
+2018,14,7002,"ATL","GB","a","Atlanta","Def",3,2200
+2018,14,7031,"WAS","NYG","h","Washington","Def",3,2300
+2018,14,7026,"LAC","CIN","h","LA Chargers","Def",3,3500
+2018,14,7007,"CIN","LAC","a","Cincinnati","Def",2,2000
+2018,14,7016,"MIA","NE","h","Miami","Def",1,2100
+2018,15,7002,"ATL","ARI","h","Atlanta","Def",20,2700
+2018,15,7013,"IND","DAL","h","Indianapolis","Def",19,2600
+2018,15,7030,"TEN","NYG","a","Tennessee","Def",17,2600
+2018,15,7031,"WAS","JAX","a","Washington","Def",14,2400
+2018,15,7017,"MIN","MIA","h","Minnesota","Def",13,3100
+2018,15,7019,"NO","CAR","a","New Orleans","Def",12,2700
+2018,15,7005,"CAR","NO","h","Carolina","Def",12,2000
+2018,15,7007,"CIN","OAK","h","Cincinnati","Def",10,2500
+2018,15,7014,"JAX","WAS","h","Jacksonville","Def",10,3400
+2018,15,7027,"SF","SEA","h","San Francisco","Def",9,2000
+2018,15,7015,"KC","LAC","h","Kansas City","Def",8,2200
+2018,15,7006,"CHI","GB","h","Chicago","Def",8,2900
+2018,15,7010,"DEN","CLE","h","Denver","Def",7,2500
+2018,15,7029,"TB","BAL","a","Tampa Bay","Def",7,2200
+2018,15,7023,"PHI","LA","a","Philadelphia","Def",7,2000
+2018,15,7008,"CLE","DEN","a","Cleveland","Def",7,2800
+2018,15,7024,"PIT","NE","h","Pittsburgh","Def",7,2400
+2018,15,7018,"NE","PIT","a","New England","Def",7,2200
+2018,15,7003,"BAL","TB","h","Baltimore","Def",7,3000
+2018,15,7016,"MIA","MIN","a","Miami","Def",6,2100
+2018,15,7021,"NYJ","HOU","h","New York J","Def",5,2100
+2018,15,7032,"HOU","NYJ","a","Houston","Def",5,3600
+2018,15,7028,"SEA","SF","a","Seattle","Def",5,3300
+2018,15,7004,"BUF","DET","h","Buffalo","Def",4,2800
+2018,15,7012,"GB","CHI","a","Green Bay","Def",3,2300
+2018,15,7022,"OAK","CIN","a","Oakland","Def",2,2400
+2018,15,7011,"DET","BUF","a","Detroit","Def",2,2500
+2018,15,7009,"DAL","IND","a","Dallas","Def",2,2300
+2018,15,7020,"NYG","TEN","h","New York G","Def",2,2600
+2018,15,7001,"ARI","ATL","a","Arizona","Def",1,2200
+2018,15,7025,"LA","PHI","h","LA Rams","Def",1,2700
+2018,15,7026,"LAC","KC","a","LA Chargers","Def",1,2100
+2018,16,7003,"BAL","LAC","a","Baltimore","Def",20,2400
+2018,16,7014,"JAX","MIA","a","Jacksonville","Def",17,2700
+2018,16,7009,"DAL","TB","h","Dallas","Def",14,2600
+2018,16,7002,"ATL","CAR","a","Atlanta","Def",14,2300
+2018,16,7030,"TEN","WAS","h","Tennessee","Def",13,3400
+2018,16,7022,"OAK","DEN","h","Oakland","Def",12,2000
+2018,16,7016,"MIA","JAX","h","Miami","Def",12,2700
+2018,16,7018,"NE","BUF","h","New England","Def",10,2500
+2018,16,7021,"NYJ","GB","h","New York J","Def",8,2200
+2018,16,7027,"SF","CHI","h","San Francisco","Def",8,2000
+2018,16,7025,"LA","ARI","a","LA Rams","Def",8,3200
+2018,16,7004,"BUF","NE","a","Buffalo","Def",7,2200
+2018,16,7006,"CHI","SF","a","Chicago","Def",7,3500
+2018,16,7017,"MIN","DET","a","Minnesota","Def",7,2900
+2018,16,7019,"NO","PIT","h","New Orleans","Def",6,2300
+2018,16,7032,"HOU","PHI","a","Houston","Def",6,3100
+2018,16,7026,"LAC","BAL","h","LA Chargers","Def",6,2500
+2018,16,7023,"PHI","HOU","h","Philadelphia","Def",5,2100
+2018,16,7005,"CAR","ATL","h","Carolina","Def",5,2400
+2018,16,7024,"PIT","NO","a","Pittsburgh","Def",5,2200
+2018,16,7008,"CLE","CIN","h","Cleveland","Def",4,3000
+2018,16,7028,"SEA","KC","h","Seattle","Def",4,2200
+2018,16,7031,"WAS","TEN","a","Washington","Def",4,2100
+2018,16,7001,"ARI","LA","h","Arizona","Def",3,2000
+2018,16,7007,"CIN","CLE","a","Cincinnati","Def",2,2200
+2018,16,7011,"DET","MIN","h","Detroit","Def",2,2100
+2018,16,7020,"NYG","IND","a","New York G","Def",2,2100
+2018,16,7013,"IND","NYG","h","Indianapolis","Def",2,3300
+2018,16,7010,"DEN","OAK","a","Denver","Def",1,3000
+2018,16,7029,"TB","DAL","a","Tampa Bay","Def",1,2300
+2018,16,7015,"KC","SEA","a","Kansas City","Def",-1,2300
+2018,16,7012,"GB","NYJ","a","Green Bay","Def",-2,2800
+2018,17,7015,"KC","OAK","h","Kansas City","Def",24,2600
+2018,17,7018,"NE","NYJ","h","New England","Def",23,3100
+2018,17,7026,"LAC","DEN","a","LA Chargers","Def",21,3200
+2018,17,7004,"BUF","MIA","h","Buffalo","Def",16,2700
+2018,17,7023,"PHI","WAS","a","Philadelphia","Def",16,2700
+2018,17,7001,"ARI","SEA","a","Arizona","Def",16,2200
+2018,17,7025,"LA","SF","h","LA Rams","Def",16,3900
+2018,17,7011,"DET","GB","a","Detroit","Def",15,2100
+2018,17,7032,"HOU","JAX","h","Houston","Def",14,3300
+2018,17,7010,"DEN","LAC","h","Denver","Def",10,2200
+2018,17,7007,"CIN","PIT","a","Cincinnati","Def",10,2000
+2018,17,7028,"SEA","ARI","h","Seattle","Def",10,3700
+2018,17,7030,"TEN","IND","h","Tennessee","Def",10,0
+2018,17,7013,"IND","TEN","a","Indianapolis","Def",10,0
+2018,17,7014,"JAX","HOU","a","Jacksonville","Def",9,2300
+2018,17,7006,"CHI","MIN","a","Chicago","Def",8,2800
+2018,17,7024,"PIT","CIN","h","Pittsburgh","Def",8,3500
+2018,17,7003,"BAL","CLE","h","Baltimore","Def",6,2900
+2018,17,7005,"CAR","NO","a","Carolina","Def",5,2300
+2018,17,7016,"MIA","BUF","a","Miami","Def",5,2600
+2018,17,7031,"WAS","PHI","h","Washington","Def",5,2200
+2018,17,7008,"CLE","BAL","a","Cleveland","Def",4,2400
+2018,17,7029,"TB","ATL","h","Tampa Bay","Def",2,2100
+2018,17,7002,"ATL","TB","a","Atlanta","Def",2,2600
+2018,17,7020,"NYG","DAL","h","New York G","Def",2,2100
+2018,17,7022,"OAK","KC","a","Oakland","Def",1,2200
+2018,17,7009,"DAL","NYG","a","Dallas","Def",1,3000
+2018,17,7019,"NO","CAR","h","New Orleans","Def",0,2700
+2018,17,7021,"NYJ","NE","a","New York J","Def",0,2100
+2018,17,7012,"GB","DET","h","Green Bay","Def",0,2400
+2018,17,7017,"MIN","CHI","h","Minnesota","Def",0,2500
+2018,17,7027,"SF","LA","a","San Francisco","Def",-4,2000

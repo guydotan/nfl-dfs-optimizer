@@ -1,17 +1,14 @@
-#set data to iris data set
-data <- iris
+# read in nfl dfs dataset and prep it for use in the app
 
-# Compute more values from x variable in a helper dataframe
-data_helper <- NULL
-data_helper$clust <- data[,-5]
-data_helper$response <- data$Species
+nfl <- read.csv("../data cleaning/csvs/nfl_dfs_2018.csv", stringsAsFactors = F)
 
+# clean up some variable names
+names(nfl)[13:14] <- c("salary","fantasy_pts")
 
-dataset <- read.csv("nfl_2018_v2.csv", stringsAsFactors = F)
-nfl <- dataset[,c("week","season","game.id","name","Pos","Team","h.a","Opp_Team","fan_pts","DK.salary")]
-nfl <- nfl[nfl$DK.salary > 0 & nfl$Pos != "",]
-nfl[nfl$Pos == 'FB',"Pos"] <- 'RB'
-names(nfl) <- c("Week",	"Year",	"GID"	,"Name",	"Pos"	,"Team",	"h.a",	"Oppt",	"DK.points"	,"DK.salary")
-factor_levels <- c("QB", "WR", "RB", "TE", "Def", "")
-nfl$Pos <- factor(nfl$Pos, levels = factor_levels)
-nfl <- nfl[order(nfl$Week, nfl$Year, nfl$Team, nfl$Pos),]
+# turn position field into a factor
+factor_levels <- c("QB", "WR", "RB", "TE", "Def")
+nfl$pos <- factor(nfl$pos, levels = factor_levels)
+
+# reorder the table for display
+nfl <- nfl[order(nfl$season, nfl$week, nfl$date, nfl$team, nfl$pos),]
+row.names(nfl) <- NULL

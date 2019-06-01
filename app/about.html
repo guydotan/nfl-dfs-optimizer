@@ -6,21 +6,156 @@
     <title>ABOUT</title>
   </head>
   <body>
+    
     <center>
-    <h2>About this app</h2>
+	<img src="football_header.jpg" alt="Football Header" style="width:400px;">
+	</center>
+    
+    <center>
+    <h2>About this App</h2>
     </center>
 
-    <p>This app is supposed to be a simple example of how to deploy a shiny app. Work in progress.</p>
+    <p>This app relates to the DraftKings daily fantasy competition for the 2018 NFL season. Using a simple optimization technique it will output the best possible lineup that could have been assembled for each week of the NFL fantasy regular season.</p>
 
-    <h2>Number of Clusters</h2>
-    <p>Let's take a look at an indicator of how many clusters to choose<p>
+    <h3>Daily Fantasy Rules</h3>
+    <p>For the purposes of this app, we will be looking at the "NFL Classic" scoring system and structure in DraftKing's NFL daily fantasy competitions. The goal in daily fantasy sports (DFS) is to assemble a lineup of players within a certain salary cap. NFL players generate fantasy points based on their performance in the real games that week and the lineups with the most points are awarded prizes. </p>
 
-    <h3>Percentage of Variance Explained</h3>
-    <p>By checking the percentage of variance explained we can understand how much of the between sum of squares variance is explained relative to the total sum of squares at the different cluster values. Most likely we would want to add a screeplot and use the `Elbow Method` to consider the percentage of variance explained at different numbers of clusters all at once.  Will be included in future work.  </p>
+    <p>Each lineup can have a maximum salary of <b>$50,000</b>. The salary of a player is determined by DraftKings before the first game of the week. A lineup consists of 9 positions:</p>
+ 	<ul>
+ 		<li>1 QB</li>
+ 		<li>3 WR</li>
+ 		<li>2 RB</li>
+ 		<li>1 TE</li>
+ 		<li>1 Flex (WR/RB/TE)</li>
+ 		<li>1 Def</li>
+ 	</ul>
 
+    <h3>DraftKing's Fantasy Points Scoring System</h3>
+
+ 	<p>Fantasy points are determiend based on the scoring system listed below. Further scoring policies are detailed on DraftKing's website at this <a href="https://www.draftkings.com/help/rules/1/1">link</a>.</p>
+
+	<!-- table formatting generated from: https://www.tablesgenerator.com/html_tables#-->
+	<style type="text/css">
+	.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;margin:0px auto;}
+	.tg td{padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+	.tg th{font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
+	.tg .tg-kwiq{color:#000000;border-color:inherit;text-align:left;vertical-align:top}
+	.tg .tg-7btt{font-weight:bold;border-color:inherit;text-align:center;vertical-align:top}
+	.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+	</style>
+	<table class="tg">
+	  <tr>
+	    <th class="tg-7btt" colspan="2">Offense</th>
+	    <th class="tg-7btt" colspan="2">Defense</th>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Passing TD</td>
+	    <td class="tg-0pky">+4 Pts</td>
+	    <td class="tg-0pky">Sack</td>
+	    <td class="tg-0pky">+1 Pt</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">25 Passing Yards</td>
+	    <td class="tg-0pky">+1 Pt (+0.04 Pts/ Yards)</td>
+	    <td class="tg-0pky">Interception</td>
+	    <td class="tg-0pky">+2 Pts</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">300+ Yard Passing Game</td>
+	    <td class="tg-0pky">+3 Pts</td>
+	    <td class="tg-0pky">Fumble Recovery</td>
+	    <td class="tg-0pky">+2 Pts</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Interception</td>
+	    <td class="tg-0pky">-1 Pt</td>
+	    <td class="tg-0pky">Punt/Kickoff/FG Return for TD</td>
+	    <td class="tg-0pky">+6 Pts</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Rushing TD</td>
+	    <td class="tg-0pky">+6 Pts</td>
+	    <td class="tg-0pky">Interception Return TD</td>
+	    <td class="tg-0pky">+6 Pts</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">10 Rushing Yards</td>
+	    <td class="tg-0pky">+1 Pt (+0.1 Pts/Yard)</td>
+	    <td class="tg-0pky">Fumble Recovery TD</td>
+	    <td class="tg-0pky">+6 Pts</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">100+ Yard Rushing Game</td>
+	    <td class="tg-0pky">+3 Pts</td>
+	    <td class="tg-0pky">Blocked Punt or FG Return TD</td>
+	    <td class="tg-0pky">+6 Pts</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Receiving TD</td>
+	    <td class="tg-0pky">+6 Pts</td>
+	    <td class="tg-0pky">Safety</td>
+	    <td class="tg-0pky">+2 Pts</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">10 Receiving Yards</td>
+	    <td class="tg-0pky">+1 Pt (+0.1 Pts/Yard)</td>
+	    <td class="tg-0pky">Blocked Kick</td>
+	    <td class="tg-0pky">+2 Pts</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">100+ Receiving Yard Game</td>
+	    <td class="tg-0pky">+3 Pts</td>
+	    <td class="tg-0pky">2 Pt Conversion/Extra Point Return</td>
+	    <td class="tg-0pky">+2 Pts</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Reception</td>
+	    <td class="tg-0pky">+1 Pt</td>
+	    <td class="tg-0pky">0 Points Allowed</td>
+	    <td class="tg-0pky">+10 Pts</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Punt/Kickoff/FG Return for TD</td>
+	    <td class="tg-0pky">+6 Pts</td>
+	    <td class="tg-0pky">1 – 6 Points Allowed</td>
+	    <td class="tg-0pky">+7 Pts</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Fumble Lost</td>
+	    <td class="tg-0pky">-1 Pt</td>
+	    <td class="tg-0pky">7 – 13 Points Allowed</td>
+	    <td class="tg-0pky">+4 Pts</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">2 Pt Conversion (Pass, Run, or Catch)</td>
+	    <td class="tg-0pky">+2 Pts</td>
+	    <td class="tg-0pky">14 – 20 Points Allowed</td>
+	    <td class="tg-0pky">+1 Pt</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Offensive Fumble Recovery TD</td>
+	    <td class="tg-0pky">+6 Pts</td>
+	    <td class="tg-0pky">21 – 27 Points Allowed</td>
+	    <td class="tg-0pky">+0 Pts</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-kwiq"></td>
+	    <td class="tg-0pky"></td>
+	    <td class="tg-0pky">28 – 34 Points Allowed</td>
+	    <td class="tg-0pky">-1 Pt</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky"></td>
+	    <td class="tg-0pky"></td>
+	    <td class="tg-0pky">35+ Points Allowed</td>
+	    <td class="tg-0pky">-4 Pts</td>
+	  </tr>
+	</table>
 
     <br>
-    <h2>Creator</h2>
-    <p>Nate Langholz (</p>
+    <h3>Creator</h3>
+    <p>Guy Dotan</p>
+	<p>Last Updated: 5/31/2019</p>
+	<p><i>Any outside sources or code that was used in the creation of this app is referenced in the code comments.</i></p>
   </body>
 </html>
