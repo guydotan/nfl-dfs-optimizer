@@ -4,6 +4,7 @@
 
 library("rvest")
 library("stringr")
+library("dplyr")
 
 # rotoguru base url
 url <- 'http://rotoguru1.com/cgi-bin/fyday.pl'

@@ -3,6 +3,8 @@
 ## loading into the shiny app
 ##
 
+library("dplyr")
+
 # read in three datasets
 nfl_stats <- read.csv("csvs/nfl_player_stats.csv" , stringsAsFactors = F)
 dfs_data  <- read.csv("csvs/dfs_data.csv" , stringsAsFactors = F)
