@@ -21,15 +21,15 @@ RUN wget --no-verbose https://s3.amazonaws.com/rstudio-shiny-server-os-build/ubu
 
 # Install R packages that are required
 # TODO: add further package if you need!
-RUN sudo R -e "install.packages(c('shiny', 'shinydashboard', 'DT', 'lpSolve', 'rvest', 'stringr', 'dplyr', 'devtools'), repos='http://cran.rstudio.com/')"
+RUN sudo R -e "install.packages(c('shiny', 'shinydashboard'), repos='http://cran.rstudio.com/')"
 
 # Copy configuration files into the Docker image
   
 COPY shiny-server.conf  /etc/shiny-server/shiny-server.conf
 COPY /app /srv/shiny-server/
 
-# Make the ShinyApp available at port 1515
-EXPOSE 1515
+# Make the ShinyApp available at port 3838
+EXPOSE 3838
 
 
 # Copy further configuration files into the Docker image

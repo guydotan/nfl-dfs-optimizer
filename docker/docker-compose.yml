@@ -5,7 +5,7 @@ services:
     container_name: shiny
     # To build the image locally, comment out "image" below, and uncomment
     # "build" and the lines indented under it.
-    # image: rocker/shiny
+    #image: rocker/shiny
     build:
       context: .
       dockerfile: Dockerfile
@@ -18,7 +18,7 @@ services:
     # environment:
     #   - APPLICATION_LOGS_TO_STDOUT=false
     ports:
-      - '1515:1515'
+      - '3838:3838'
     volumes:
       - 'shiny_logs:/var/log/shiny-server'
       # Comment the line below out for initial testing. With it commented out,
