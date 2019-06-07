@@ -116,7 +116,7 @@ ui <- dashboardPage(
                            sliderInput("salary", "DraftKings Salary",
                                        0, 10000, value = c(0, 10000),
                                        step = 250),
-                           selectInput("pos", "Select Opponent",
+                           selectInput("pos", "Select Positions",
                                        c("All Positions", pos_levels)),
                            selectInput("team", "Select Teams",
                                        c("All Teams", all_teams)
