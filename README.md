@@ -1,5 +1,82 @@
-# ucla-mas418-final
-Guy Dotan - Final project for UCLA MAS 418 Tools in Data Science course
+# NFL Daily Fantasy Optimzer 
+### Final Project - UCLA Stats 418: Tools in Data Science (June 2019)
+
+## Background
+This product is an optimizer for the daily fantasy sports competitions that have becoming increasingly popular over the past 10 year years. Whereas in regular season-long fantasy sports a manager drafts his team and follows that roster for the remainder of the season, in daily fantasy a new team is selected daily (or weekly in the NFL).
+
+The current iteration of this product is built to determine the best possible lineup based on the DraftKings scoring settings. Using a simple optimization technique it will output what would have been the top lineup each week of the 2018 NFL fantasy regular season.
 
 ## Exploratory Data Analysis
 
+Our data comes from two locations:
+
+ 1. [nfscrapeR](https://github.com/maksimhorowitz/nflscrapR/) - R package built on the NFL API play-by-play data to aggregate 2018 individual player statistics and convert to DraftKings fantasy points.
+ 2. [RotoGuru](http://rotoguru1.com/cgi-bin/fyday.pl?week=17&game=dk/) - Archive of daily fantasy salaries and points from variety of DFS sites that was scraped using R’s `rvest` package.
+
+Once the two datasets had been merged and cleaned the final working dataset had the following player breakdown:
+
+**Number of Draftable Players per Week by Position**
+
+| Week | QB |  WR | RB | TE | Def |
+|-----:|---:|----:|---:|---:|----:|
+|    1 | 36 | 115 | 85 | 56 |  32 |
+|    2 | 36 | 118 | 88 | 58 |  32 |
+|    3 | 37 | 121 | 87 | 59 |  32 |
+|    4 | 36 | 118 | 76 | 56 |  30 |
+|    5 | 35 | 120 | 74 | 53 |  30 |
+|    6 | 32 | 113 | 77 | 53 |  30 |
+|    7 | 34 | 107 | 70 | 45 |  28 |
+|    8 | 34 | 106 | 75 | 46 |  28 |
+|    9 | 31 | 101 | 67 | 41 |  26 |
+|   10 | 33 | 103 | 81 | 56 |  28 |
+|   11 | 33 |  97 | 67 | 51 |  26 |
+|   12 | 35 | 113 | 78 | 58 |  30 |
+|   13 | 37 | 119 | 82 | 52 |  32 |
+|   14 | 40 | 122 | 89 | 53 |  32 |
+|   15 | 35 | 119 | 84 | 56 |  32 |
+|   16 | 41 | 122 | 78 | 54 |  32 |
+|   17 | 40 | 120 | 90 | 52 |  32 |
+
+
+
+## Methdology 
+
+
+## Results
+
+
+
+#### Daily Fantasy Rules
+For the purposes of this app, we will be looking at the "NFL Classic" scoring system and structure in DraftKing's NFL daily fantasy competitions. The goal in daily fantasy sports (DFS) is to assemble a lineup of players within a certain salary cap. NFL players generate fantasy points based on their performance in the real games that week and the lineups with the most points are awarded prizes.
+
+Each lineup can have a maximum salary of $50,000. The salary of a player is determined by DraftKings before the first game of the week. A lineup consists of 9 positions:
+
+* 1 QB
+* 3 WR
+* 2 RB
+* 1 TE
+* 1 Flex (WR/RB/TE)
+* 1 Def
+
+
+|                Offense                |                          |               Defense              |         |
+|:-------------------------------------:|:------------------------:|:----------------------------------:|---------|
+| Passing TD                            | +4 Pts                   | Sack                               | +1 Pt   |
+| 25 Passing Yards                      | +1 Pt (+0.04 Pts/ Yards) | Interception                       | +2 Pts  |
+| 300+ Yard Passing Game                | +3 Pts                   | Fumble Recovery                    | +2 Pts  |
+| Interception                          | -1 Pt                    | Punt/Kickoff/FG Return for TD      | +6 Pts  |
+| Rushing TD                            | +6 Pts                   | Interception Return TD             | +6 Pts  |
+| 10 Rushing Yards                      | +1 Pt (+0.1 Pts/Yard)    | Fumble Recovery TD                 | +6 Pts  |
+| 100+ Yard Rushing Game                | +3 Pts                   | Blocked Punt or FG Return TD       | +6 Pts  |
+| Receiving TD                          | +6 Pts                   | Safety                             | +2 Pts  |
+| 10 Receiving Yards                    | +1 Pt (+0.1 Pts/Yard)    | Blocked Kick                       | +2 Pts  |
+| 100+ Receiving Yard Game              | +3 Pts                   | 2 Pt Conversion/Extra Point Return | +2 Pts  |
+| Reception                             | +1 Pt                    | 0 Points Allowed                   | +10 Pts |
+| Punt/Kickoff/FG Return for TD         | +6 Pts                   | 1 – 6 Points Allowed               | +7 Pts  |
+| Fumble Lost                           | -1 Pt                    | 7 – 13 Points Allowed              | +4 Pts  |
+| 2 Pt Conversion (Pass, Run, or Catch) | +2 Pts                   | 14 – 20 Points Allowed             | +1 Pt   |
+| Offensive Fumble Recovery TD          | +6 Pts                   | 21 – 27 Points Allowed             | +0 Pts  |
+|                                       |                          | 28 – 34 Points Allowed             | -1 Pt   |
+
+
+**Last Updated:** 06/08/2019
