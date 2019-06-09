@@ -37,19 +37,23 @@ Once the two datasets had been merged and cleaned the final working dataset had 
 |   16 | 41 | 122 | 78 | 54 |  32 |
 |   17 | 40 | 120 | 90 | 52 |  32 |
 
+Fantasy points range from a highest single week total of 52.70 points (Christian McCaffrey, Car - Wk 12 and Amari Cooper, Dal - Wk 14) to a lowest total of -4.00 points (Team defenses a handful of times).
+
+![fan pts boxplot](plots/fanpts_pos_bp.png "Box Plot")
+
+Salary ranges from a highest single week total of &#36;10,000 (Todd Gurley, LA - Wk 6) to a low of &#36;0 which is most likely due to missing values in RotoGuru's site. Therefore the lowest non-zero total is &#36;2,000 (dozens of times).
+
+![fan pts boxplot](plots/salary_pos_bp.png "Box Plot")
+
+For an interactive visualization to conduct more exploratory data analysis on the football statistics, salaries, fantasy points, are more play around with the **Explore** tab of the Shiny app.
 
 
 ## Methdology 
 
-
-## Results
-
-
-
 #### Daily Fantasy Rules
 For the purposes of this app, we will be looking at the "NFL Classic" scoring system and structure in DraftKing's NFL daily fantasy competitions. The goal in daily fantasy sports (DFS) is to assemble a lineup of players within a certain salary cap. NFL players generate fantasy points based on their performance in the real games that week and the lineups with the most points are awarded prizes.
 
-Each lineup can have a maximum salary of $50,000. The salary of a player is determined by DraftKings before the first game of the week. A lineup consists of 9 positions:
+Each lineup can have a maximum salary of &#36;50,000. The salary of a player is determined by DraftKings before the first game of the week. A lineup consists of 9 positions:
 
 * 1 QB
 * 3 WR
@@ -78,5 +82,14 @@ Each lineup can have a maximum salary of $50,000. The salary of a player is dete
 | Offensive Fumble Recovery TD          | +6 Pts                   | 21 – 27 Points Allowed             | +0 Pts  |
 |                                       |                          | 28 – 34 Points Allowed             | -1 Pt   |
 
+
+
+## Results
+
+Lorem Ipsum 
+
+---
+
+**Copyright:** Guy Dotan, UCLA MAS 2019
 
 **Last Updated:** 06/08/2019
