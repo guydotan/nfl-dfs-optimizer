@@ -39,11 +39,11 @@ Once the two datasets had been merged and cleaned the final working dataset had 
 
 Fantasy points range from a highest single week total of 52.70 points (Christian McCaffrey, Car - Wk 12 and Amari Cooper, Dal - Wk 14) to a lowest total of -4.00 points (Team defenses a handful of times).
 
-![fan pts boxplot](plots/fanpts_pos_bp.png "Box Plot")
+![fan pts boxplot](./plots/fanpts_pos_bp.png = 600x)
 
 Salary ranges from a highest single week total of &#36;10,000 (Todd Gurley, LA - Wk 6) to a low of &#36;0 which is most likely due to missing values in RotoGuru's site. Therefore the lowest non-zero total is &#36;2,000 (dozens of times).
 
-![fan pts boxplot](plots/salary_pos_bp.png "Box Plot")
+![salary boxplot](plots/salary_pos_bp.png = 600x)
 
 For an interactive visualization to conduct more exploratory data analysis on the football statistics, salaries, fantasy points, are more play around with the **Explore** tab of the Shiny app.
 
