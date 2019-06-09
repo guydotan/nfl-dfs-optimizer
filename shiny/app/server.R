@@ -51,7 +51,9 @@ shinyServer(function(input, output, session){
   # Fantasy Points Box
   output$fan_pts_box <- renderValueBox({
     valueBox(
-      paste("\u00A0",v$fmt_fan_pts), " total Fantasy Points", icon = icon("tachometer"),
+      paste("\u00A0",v$fmt_fan_pts),
+      " total Fantasy Points",
+      icon = icon("tachometer"),
       color = "light-blue"
       )	
     })
@@ -59,7 +61,9 @@ shinyServer(function(input, output, session){
   # Total Salary Box
   output$salary_box <- renderValueBox({
     valueBox(
-      paste0("$",v$fmt_sal), " total DraftKings salary", icon = icon("money"),
+      paste0("$",v$fmt_sal),
+      " total DraftKings salary",
+      icon = icon("money"),
       color = "green"
     )	
   })
@@ -111,7 +115,6 @@ shinyServer(function(input, output, session){
       Plyr_nm <- paste0("", input$full_name, "")
       p <- p %>% filter(str_detect(tolower(full_name),tolower(Plyr_nm)))
     }
-    
     p <- as.data.frame(p)
   })
   
