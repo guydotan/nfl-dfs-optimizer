@@ -1,9 +1,9 @@
 # NFL Daily Fantasy Optimzer 
-### Final Project - UCLA Stats 418: Tools in Data Science (June 2019)
-### [NFL DFS Shiny App](https://guydotan.shinyapps.io/nfl_dfs/)
+### Final Project - UCLA Stats 418: Tools in Data Science (Spring 2019)
+### Link to Shiny App: [NFL DFS](https://guydotan.shinyapps.io/nfl_dfs/)
 
 ## Background
-This app is an optimizer for the daily fantasy sports competitions that have become increasingly popular over the past 10 years. Whereas in regular season-long fantasy sports a manager drafts his team and follows that roster for the remainder of the season, in daily fantasy a new team is selected daily (or weekly in the NFL).
+This app is an optimizer for the daily fantasy sports competitions that have become increasingly popular over the past 10 years. Whereas in regular season-long fantasy sports a manager drafts his or her team and follows that roster for the remainder of the season, in daily fantasy a new team is selected daily (or weekly in the NFL).
 
 The current iteration of this product is built to determine the best possible lineup based on the [DraftKings](http://www.draftkings.com) scoring settings. Using a simple optimization technique it will output what would have been the top lineup each week of the 2018 NFL fantasy regular season.
 
@@ -46,7 +46,7 @@ Salary ranges from a highest single week total of &#36;10,000 (Todd Gurley, LA -
 
 ![fan pts boxplot](plots/salary_pos_bp.png "Box Plot")
 
-For an interactive visualization to conduct more exploratory data analysis on the football statistics, salaries, fantasy points, are more play around with the **Explore** tab of the Shiny app.
+To conduct more exploratory data analysis use the interactive visualization on the **Explore** tab of the Shiny app. There you can filter through and play around with the football statistics, salaries, fantasy points, are more.
 
 
 ## Methdology 
