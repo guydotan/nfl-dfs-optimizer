@@ -1,17 +1,18 @@
 # NFL Daily Fantasy Optimzer 
 ### Final Project - UCLA Stats 418: Tools in Data Science (June 2019)
+### [NFL DFS Shiny App](https://guydotan.shinyapps.io/nfl_dfs/)
 
 ## Background
-This product is an optimizer for the daily fantasy sports competitions that have becoming increasingly popular over the past 10 year years. Whereas in regular season-long fantasy sports a manager drafts his team and follows that roster for the remainder of the season, in daily fantasy a new team is selected daily (or weekly in the NFL).
+This app is an optimizer for the daily fantasy sports competitions that have become increasingly popular over the past 10 years. Whereas in regular season-long fantasy sports a manager drafts his team and follows that roster for the remainder of the season, in daily fantasy a new team is selected daily (or weekly in the NFL).
 
-The current iteration of this product is built to determine the best possible lineup based on the DraftKings scoring settings. Using a simple optimization technique it will output what would have been the top lineup each week of the 2018 NFL fantasy regular season.
+The current iteration of this product is built to determine the best possible lineup based on the [DraftKings](http://www.draftkings.com) scoring settings. Using a simple optimization technique it will output what would have been the top lineup each week of the 2018 NFL fantasy regular season.
 
 ## Exploratory Data Analysis
 
 Our data comes from two locations:
 
- 1. [nfscrapeR](https://github.com/maksimhorowitz/nflscrapR/) - R package built on the NFL API play-by-play data to aggregate 2018 individual player statistics and convert to DraftKings fantasy points.
- 2. [RotoGuru](http://rotoguru1.com/cgi-bin/fyday.pl?week=17&game=dk/) - Archive of daily fantasy salaries and points from variety of DFS sites that was scraped using R’s `rvest` package.
+ 1. [nfscrapeR](https://github.com/maksimhorowitz/nflscrapR/) - R package built on the NFL API play-by-play data to aggregate 2018 individual player statistics and then converted to DraftKings fantasy points.
+ 2. [RotoGuru](http://rotoguru1.com/cgi-bin/fyday.pl?week=17&game=dk/) - Archive of daily fantasy salaries and points from a variety of DFS sites that was scraped using R’s `rvest` package.
 
 Once the two datasets had been merged and cleaned the final working dataset had the following player breakdown:
 
@@ -52,7 +53,7 @@ For an interactive visualization to conduct more exploratory data analysis on th
 
 ### Daily Fantasy Rules
 
-For the purposes of this app, we will be looking at the "NFL Classic" scoring system and structure in DraftKing's NFL daily fantasy competitions. The goal in daily fantasy sports (DFS) is to assemble a lineup of players within a certain salary cap. NFL players generate fantasy points based on their performance in the real games that week and the lineups with the most points are awarded prizes. 
+For the purposes of this app, we will be looking at the "NFL Classic" scoring system and structure in DraftKing's NFL daily fantasy competitions. The goal in DFS is to assemble a lineup of players within a certain salary cap. NFL players generate fantasy points based on their performance in the real games that week and the lineups with the most points are awarded prizes. 
 
 Each lineup can have a maximum salary of &#36;50,000. The salary of a player is determined by DraftKings before the first game of the week. A lineup consists of 9 positions:
 
@@ -91,7 +92,7 @@ Fantasy points are calculated according to the following scoring system per [Dra
 
 The optimizer was built using R's linear optimization package called `lpSolve`. Basically it takes the tenants of the combinatorial optimization problem in mathematics called the [Knapsack Problem](https://en.wikipedia.org/wiki/Knapsack_problem).
 
-I used the following [Optimizer on GitHub](https://github.com/sdeep27/linear-optimization-fantasy-football) to solve the lineup optimization. The function inputs a dataset, a maxmimum salary contrainst, and an optimization value (fantasy points).
+I used the following [Optimizer on GitHub](https://github.com/sdeep27/linear-optimization-fantasy-football) to solve the lineup optimization. The function inputs a dataset, a maxmimum salary constraint, and an optimization value (fantasy points).
 
 ## Results
 
