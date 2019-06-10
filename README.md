@@ -40,11 +40,11 @@ Once the two datasets had been merged and cleaned the final working dataset had 
 
 Fantasy points range from a highest single week total of 52.70 points (Christian McCaffrey, Car - Wk 12 and Amari Cooper, Dal - Wk 14) to a lowest total of -4.00 points (Team defenses a handful of times).
 
-![fan pts boxplot](plots/fanpts_pos_bp.png "Box Plot")
+![fan pts boxplot](imgs/fanpts_pos_bp.png "Box Plot")
 
 Salary ranges from a highest single week total of &#36;10,000 (Todd Gurley, LA - Wk 6) to a low of &#36;0 which is most likely due to missing values in RotoGuru's site. Therefore the lowest non-zero total is &#36;2,000 (dozens of times).
 
-![fan pts boxplot](plots/salary_pos_bp.png "Box Plot")
+![fan pts boxplot](imgs/salary_pos_bp.png "Box Plot")
 
 To conduct more exploratory data analysis use the interactive visualization on the **Explore** tab of the Shiny app. There you can filter through and play around with the football statistics, salaries, fantasy points, are more.
 
@@ -98,7 +98,7 @@ I used the following [Optimizer on GitHub](https://github.com/sdeep27/linear-opt
 
 The **Optimizer** tab in the Shiny app has the results of the lineup optimization for each of the 17 weeks of the 2018 NFL season. Simply just select the week you want the best lineup for and click the "Optimize" button. The total salary and total fantasy points for that lineup will display in the green and blue boxes, respectively.
 
-![wk10_optim](plots/wk7_optim.png "Week 10 Optimized Lineup")
+![wk10_optim](imgs/wk7_optim.png "Week 10 Optimized Lineup")
 
 ---
 
