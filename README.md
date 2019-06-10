@@ -98,7 +98,7 @@ I used the following [Optimizer on GitHub](https://github.com/sdeep27/linear-opt
 
 The **Optimizer** tab in the Shiny app has the results of the lineup optimization for each of the 17 weeks of the 2018 NFL season. Simply just select the week you want the best lineup for and click the "Optimize" button. The total salary and total fantasy points for that lineup will display in the green and blue boxes, respectively.
 
-![wk10_optim](plots/wk10_optim.png "Week 10 Optimized Lineup")
+![wk10_optim](plots/wk7_optim.png "Week 10 Optimized Lineup")
 
 ---
 
