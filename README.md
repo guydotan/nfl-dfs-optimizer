@@ -46,7 +46,7 @@ Salary ranges from a highest single week total of &#36;10,000 (Todd Gurley, LA -
 
 ![fan pts boxplot](imgs/salary_pos_bp.png "Box Plot")
 
-To conduct more exploratory data analysis use the interactive visualization on the **Explore** tab of the Shiny app. There you can filter through and play around with the football statistics, salaries, fantasy points, are more.
+To conduct more exploratory data analysis use the interactive visualization on the **Explore** tab of the Shiny app. There you can filter through and play around with the football statistics, salaries, fantasy points, and more.
 
 
 ## Methdology 
