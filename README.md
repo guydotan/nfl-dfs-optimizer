@@ -1,6 +1,6 @@
 # NFL Daily Fantasy Optimzer 
 ### Final Project - UCLA Stats 418: Tools in Data Science (Spring 2019)
-### Link to Shiny App: [NFL DFS](https://guydotan.shinyapps.io/nfl_dfs/)
+### Link to Shiny App - [NFL DFS](https://guydotan.shinyapps.io/nfl_dfs/)
 
 ## Background
 This app is an optimizer for the daily fantasy sports competitions that have become increasingly popular over the past 10 years. Whereas in regular season-long fantasy sports a manager drafts his or her team and follows that roster for the remainder of the season, in daily fantasy a new team is selected daily (or weekly in the NFL).
