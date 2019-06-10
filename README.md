@@ -105,4 +105,4 @@ The **Optimizer** tab in the Shiny app has the results of the lineup optimizatio
 
 **Copyright:** Guy Dotan, UCLA MAS 2019
 
-**Last Updated:** 06/09/2019
+**Last Updated:** 06/10/2019
