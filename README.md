@@ -11,7 +11,7 @@ The current iteration of this product is built to determine the best possible li
 
 Our data comes from two locations:
 
- 1. [nfscrapeR](https://github.com/maksimhorowitz/nflscrapR/) - R package built on the NFL API play-by-play data to aggregate 2018 individual player statistics and then converted to DraftKings fantasy points.
+ 1. [nfscrapR](https://github.com/maksimhorowitz/nflscrapR/) - R package built on the NFL API play-by-play data to aggregate 2018 individual player statistics and then converted to DraftKings fantasy points.
  2. [RotoGuru](http://rotoguru1.com/cgi-bin/fyday.pl?week=17&game=dk/) - Archive of daily fantasy salaries and points from a variety of DFS sites that was scraped using R’s `rvest` package.
 
 Once the two datasets had been merged and cleaned the final working dataset had the following player breakdown:
