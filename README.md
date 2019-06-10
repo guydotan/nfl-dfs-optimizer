@@ -50,8 +50,9 @@ For an interactive visualization to conduct more exploratory data analysis on th
 
 ## Methdology 
 
-#### Daily Fantasy Rules
-For the purposes of this app, we will be looking at the "NFL Classic" scoring system and structure in DraftKing's NFL daily fantasy competitions. The goal in daily fantasy sports (DFS) is to assemble a lineup of players within a certain salary cap. NFL players generate fantasy points based on their performance in the real games that week and the lineups with the most points are awarded prizes.
+### Daily Fantasy Rules
+
+For the purposes of this app, we will be looking at the "NFL Classic" scoring system and structure in DraftKing's NFL daily fantasy competitions. The goal in daily fantasy sports (DFS) is to assemble a lineup of players within a certain salary cap. NFL players generate fantasy points based on their performance in the real games that week and the lineups with the most points are awarded prizes. 
 
 Each lineup can have a maximum salary of &#36;50,000. The salary of a player is determined by DraftKings before the first game of the week. A lineup consists of 9 positions:
 
@@ -62,6 +63,9 @@ Each lineup can have a maximum salary of &#36;50,000. The salary of a player is 
 * 1 Flex (WR/RB/TE)
 * 1 Def
 
+Fantasy points are calculated according to the following scoring system per [DraftKing's](https://www.draftkings.com/help/rules/1/1) rules. 
+
+**Fantasy Points Scoring System**
 
 |                Offense                |                          |               Defense              |         |
 |:-------------------------------------:|:------------------------:|:----------------------------------:|---------|
@@ -83,13 +87,20 @@ Each lineup can have a maximum salary of &#36;50,000. The salary of a player is 
 |                                       |                          | 28 – 34 Points Allowed             | -1 Pt   |
 
 
+### The Optimizer 
+
+The optimizer was built using R's linear optimization package called `lpSolve`. Basically it takes the tenants of the combinatorial optimization problem in mathematics called the [Knapsack Problem](https://en.wikipedia.org/wiki/Knapsack_problem).
+
+I used the following [Optimizer on GitHub](https://github.com/sdeep27/linear-optimization-fantasy-football) to solve the lineup optimization. The function inputs a dataset, a maxmimum salary contrainst, and an optimization value (fantasy points).
 
 ## Results
 
-Lorem Ipsum 
+The **Optimizer** tab in the Shiny app has the results of the lineup optimization for each of the 17 weeks of the 2018 NFL season. Simply just select the week you want the best lineup for and click the "Optimize" button. The total salary and total fantasy points for that lineup will display in the green and blue boxes, respectively.
+
+![wk10_optim](plots/wk10_optim.png "Week 10 Optimized Lineup")
 
 ---
 
 **Copyright:** Guy Dotan, UCLA MAS 2019
 
-**Last Updated:** 06/08/2019
+**Last Updated:** 06/09/2019
