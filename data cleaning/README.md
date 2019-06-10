@@ -11,7 +11,7 @@ The data that populates this DFS optimizer app comes from two separate sources.
 
 The first is the [nfscrapR](https://github.com/maksimhorowitz/nflscrapR/) package. This R package uses the NFL's API play-by-play data to aggregate all the individual player statistics of the 2018 season. This was used to then calculate the fantasy points for each player for each week of the season.
 
-#### `draft_kings_scrape.R`
+#### `draftkings_scrape.R`
 
 The DraftKings player salaries are taken from a website: [RotoGuru](http://rotoguru1.com/cgi-bin/fyday.pl?week=17&game=dk/) which has an archive of all the player salaries for a variety of DFS sites. This R script uses the `rvest` package to scrape all the relevant data from the 2018 NFL season for DraftKings.
 
