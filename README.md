@@ -86,6 +86,7 @@ Fantasy points are calculated according to the following scoring system per [Dra
 | 2 Pt Conversion (Pass, Run, or Catch) | +2 Pts                   | 14 – 20 Points Allowed             | +1 Pt   |
 | Offensive Fumble Recovery TD          | +6 Pts                   | 21 – 27 Points Allowed             | +0 Pts  |
 |                                       |                          | 28 – 34 Points Allowed             | -1 Pt   |
+|                                       |                          | 35+ Points Allowed                 | -4 Pts  |
 
 
 ### The Optimizer 
