@@ -53,7 +53,7 @@ To conduct more exploratory data analysis use the interactive visualization on t
 
 ### Daily Fantasy Rules
 
-For the purposes of this app, we will be looking at the "NFL Classic" scoring system and structure in DraftKing's NFL daily fantasy competitions. The goal in DFS is to assemble a lineup of players within a certain salary cap. NFL players generate fantasy points based on their performance in the real games that week and the lineups with the most points are awarded prizes. 
+For the purposes of this app, we will be looking at the "NFL Classic" scoring system and structure in DraftKings' NFL daily fantasy competitions. The goal in DFS is to assemble a lineup of players within a certain salary cap. NFL players generate fantasy points based on their performance in the real games that week and the lineups with the most points are awarded prizes. 
 
 Each lineup can have a maximum salary of &#36;50,000. The salary of a player is determined by DraftKings before the first game of the week. A lineup consists of 9 positions:
 
@@ -64,7 +64,7 @@ Each lineup can have a maximum salary of &#36;50,000. The salary of a player is 
 * 1 Flex (WR/RB/TE)
 * 1 Def
 
-Fantasy points are calculated according to the following scoring system per [DraftKing's](https://www.draftkings.com/help/rules/1/1) rules. 
+Fantasy points are calculated according to the following scoring system per [DraftKings](https://www.draftkings.com/help/rules/1/1) rules. 
 
 **Fantasy Points Scoring System**
 
