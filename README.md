@@ -93,7 +93,7 @@ Fantasy points are calculated according to the following scoring system per [Dra
 
 The optimizer was built using R's linear optimization package called `lpSolve`. Basically it takes the tenants of the combinatorial optimization problem in mathematics called the [Knapsack Problem](https://en.wikipedia.org/wiki/Knapsack_problem).
 
-I used the following [Optimizer on GitHub](https://github.com/sdeep27/linear-optimization-fantasy-football) to solve the lineup optimization. The function inputs a dataset, a maxmimum salary constraint, and an optimization value (fantasy points).
+I used the following [Optimizer on GitHub](https://github.com/sdeep27/linear-optimization-fantasy-football) to solve the lineup optimization. The function takes in the following inputs: a dataset, a maxmimum salary constraint, and an optimization value (fantasy points). It then outputs the optimal 9-position lineup as the corresponding salaries and fantasy points.
 
 ## Results
 
